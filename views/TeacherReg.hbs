@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" type="text/css" href="/css/nav.css">
+    <link rel="stylesheet" type="text/css" href="/css/reg.css">
+    <title>Teacher Registeration</title>
+</head>
+
+<body>
+    {{>nav}}
+
+    <!-- component -->
+    <section class="text-gray-600 body-font">
+        <div class="flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8 bg-gray-500 bg-no-repeat bg-cover relative items-center"
+            style="background-image: url(https://images.unsplash.com/photo-1624916888581-48904076264b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);">
+            <div class="absolute bg-black opacity-60 inset-0 z-0"></div>
+            <div class="container1 px-5 py-5 mx-auto">
+                <form action="/form/teacherreg" class="form" method="POST" enctype="multipart/form-data">
+                    <div class="input-box">
+                        <label>Full Name</label>
+                        <input type="text" placeholder="Enter full name" name="fullname" required />
+                    </div>
+
+                    <div class="column">
+                        <div class="input-box">
+                            <label>Email Address</label>
+                            <input type="text" placeholder="Enter email address" name="email" required />
+                        </div>
+                        <div class="input-box">
+                            <label>Phone Number</label>
+                            <input type="tel" placeholder="Enter phone number" name="phone" pattern="[0-9]{10}"
+                                maxlength="10" required />
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <div class="input-box1">
+                            <label>Resume</label>
+                            <input type="file" name="resume" accept=".pdf" required />
+                        </div>
+                        <div class="input-box1">
+                            <label>Level</label>
+                            <select id="level" name="level" required>
+                                <option value="beginner">Beginner (1 to 8)</option>
+                                <option value="intermediate">Intermediate (9 to 12)</option>
+                                <option value="advanced">Advanced (College)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <div class="input-box1">
+                            <label>Profile</label>
+                            <input type="file" name="profile" accept=".jpg, .jpeg, .png" required />
+                        </div>
+                        <div class="input-box1">
+                            <label>ID (Adhar)</label>
+                            <input type="file" name="id" accept=".jpg, .jpeg, .png" required />
+                        </div>
+                    </div>
+                    <div class="input-box address">
+                        <label>Reference</label>
+                        <input type="text" placeholder="Enter Reference" name="reference" required />
+                    </div>
+                    <button name="reg" class="bg-purple-900">Submit</button>
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+    {{>footer}}
+</body>
+
+</html>

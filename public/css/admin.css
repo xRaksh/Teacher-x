@@ -1,0 +1,12 @@
+#dashboard{
+    display: block;
+}
+#teacher{
+    display: none;
+}
+#tution{
+    display: none;
+}
+#contact{
+    display: none;
+}

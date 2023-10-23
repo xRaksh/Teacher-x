@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" type="text/css" href="/css/nav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>TeacherX</title>
+</head>
+
+<body>
+
+    {{>nav}}
+
+    {{!-- Hero Section --}}
+    <main class="bg-gray-100 container mx-auto font-montserrat">
+        <div class=" px-5 py-8 sm:py-10 sm:px-12 flex flex-col sm:flex-row relative">
+            <div class="sm:w-6/12 flex justify-center items-center z-10">
+                <img src="https://storage.googleapis.com/pai-images/abb142e99fba4f35b1de2afe1396819d.jpeg" class=" rounded-xl" alt="">
+            </div>
+            <div
+                class="sm:w-5/12 xl:w-4/12 flex flex-col items-start sm:items-end sm:text-right ml-auto mt-8 sm:mt-0 relative z-10 xl:pt-20 mb-16 sm:mb-0">
+                <h1 class="text-4xl lg:text-5xl text-blue-900 leading-none mb-4 font-black">Hire A Qualified &
+                    Experienced Tutor</h1>
+                <p class="lg:text-lg mb-4 sm:mb-8 text-blue-900">Hiring a qualified and experienced tutor can help boost
+                    a student's confidence and motivation. The tutor's expertise and knowledge instill trust in the
+                    student, helping them feel more comfortable and capable in their academic pursuits.</p>
+                <div class="flex gap-3">
+                    <a href="/teacherreg"
+                        class="font-semibold text-base  bg-purple-600 hover:bg-blue-400 text-white py-4 px-5 lg:px-6 rounded-full">Become
+                        a Teacher</a>
+                    <a href="/teachhire"
+                        class="font-semibold text-base  bg-purple-600 hover:bg-blue-400 text-white py-4 px-5 lg:px-6 rounded-full">Hire
+                        a Teacher</a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    {{!-- ================================================================================== --}}
+    {{!-- ================================================================================== --}}
+
+    {{!-- What We Provide --}}
+    <section class="text-gray-200 container mx-auto bg-gray-900" id="provide">
+        <div class=" max-w-6xl mx-auto px-5 py-10 ">
+            <div class="text-center mb-10">
+                <h2
+                    class=" title-font  mb-4 text-4xl font-extrabold leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-6xl">
+                    What We Provide</h2>
+                <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Providing excellent and qualified
+                    teachers in every field, also for home and school are what we offer as a teaching consultancy. You
+                    can be assured that your child will receive the right mentorship from the tutor we recommend to you
+                    after they pass a rigorous verification process. In order to prioritize the safety of students, we
+                    follow all the guidelines. We only recommend verified and skilled tutors in your city. The skilled
+                    tutors at our company always put the creativity into making learning fun and interactive. The
+                    advantages of home tuition include saving children's time</p>
+                <div class="flex mt-6 justify-center">
+                    <div class="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
+                </div>
+            </div>
+            <div class="flex justify-center flex-row flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 ">
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="border border-gray-200 p-6 rounded-lg">
+                        <div
+                            class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                            <i class="fa-solid fa-person-chalkboard" style="color: #9333ea;"></i>
+                        </div>
+                        <h2 class="text-lg text-white font-medium title-font mb-2">School | Institute Teacher</h2>
+                        <p class="leading-relaxed text-base">We Provide Best Teacher for school and Institutes</p>
+                    </div>
+                </div>
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="border border-gray-200 p-6 rounded-lg">
+                        <div
+                            class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                            <i class="fa-solid fa-people-roof" style="color: #9333ea;"></i>
+                        </div>
+                        <h2 class="text-lg text-white font-medium title-font mb-2">Group Teachers</h2>
+                        <p class="leading-relaxed text-base">We Provides Group of Teachers for different Subjects</p>
+                    </div>
+                </div>
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="border border-gray-200 p-6 rounded-lg">
+                        <div
+                            class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                            <i class="fa-solid fa-house-user" style="color: #9339f3;"></i>
+                        </div>
+                        <h2 class="text-lg text-white font-medium title-font mb-2">Home Tutors</h2>
+                        <p class="leading-relaxed text-base">We Provide Best Home Tutors of your city with safety</p>
+                    </div>
+                </div>
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="border border-gray-200 p-6 rounded-lg">
+                        <div
+                            class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                            <i class="fa-solid fa-desktop" style="color: #8c33ea;"></i>
+                        </div>
+                        <h2 class="text-lg text-white font-medium title-font mb-2">Online Teacher</h2>
+                        <p class="leading-relaxed text-base">We Provide online teachers for differnt courses like
+                            Engineering, Law and Other</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    {{!-- ================================================================================== --}}
+    {{!-- ================================================================================== --}}
+
+    {{!-- What You Need --}}
+    <section class="text-gray-100 container mx-auto bg-gray-100" id="need">
+        <div class="max-w-6xl mx-auto px-5 py-10 ">
+            <div class="text-center mb-10">
+                <h2
+                    class=" title-font text-blue-900  mb-4 text-4xl font-extrabold leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-6xl">
+                    What You Need</h2>
+                <p class="text-base text-blue-900 leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Qualifications and
+                    expertise: Parents should look for tutors who have relevant qualifications and expertise in the
+                    subject's their child needs help with. This ensures that the tutor has the necessary knowledge and
+                    skills to effectively teach and support their child's learning.</p>
+                <div class="flex mt-6 justify-center">
+                    <div class="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
+                </div>
+            </div>
+            <div class="flex justify-center flex-row flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 ">
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="border border-black p-6 rounded-lg">
+                        <div
+                            class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                            <i class="fa-solid fa-chalkboard-user" style="color: #9333ea;"></i>
+                        </div>
+                        <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Online Tutor</h2>
+                        <p class="leading-relaxed text-base text-gray-900">Teachers for different programming Language
+                        </p>
+                    </div>
+                </div>
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="border border-black p-6 rounded-lg">
+                        <div
+                            class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                            <i class="fa-solid fa-users-rectangle" style="color: #9333ea;"></i>
+                        </div>
+                        <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Group Teacher</h2>
+                        <p class="leading-relaxed text-base text-gray-900">Group Teacher For New College, School,
+                            Institute</p>
+                    </div>
+                </div>
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="border border-black p-6 rounded-lg">
+                        <div
+                            class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                            <i class="fa-solid fa-school" style="color: #9333ea;"></i>
+                        </div>
+                        <h2 class="text-lg text-gray-900 font-medium title-font mb-2">School | College Teacher</h2>
+                        <p class="leading-relaxed text-base text-gray-900">Teachers Profile for different Places like
+                            School, College</p>
+                    </div>
+                </div>
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="border border-black p-6 rounded-lg">
+                        <div
+                            class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                            <i class="fa-solid fa-person-chalkboard" style="color: #9333ea;"></i>
+                        </div>
+                        <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Institute Teacher</h2>
+                        <p class="leading-relaxed text-base text-gray-900">Teachers for Institute for Goverment Jobs
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    {{!-- ================================================================================== --}}
+    {{!-- ================================================================================== --}}
+
+    <!-- Contact -->
+    <section class="bg-gray-900 relative container mx-auto" id="contact">
+        <div class="flex flex-col items-center justify-between px-0 py-5 mt-0 mb-0 max-w-7xl
+      xl:px-5 lg:flex-row">
+            <div class="flex flex-col items-center w-full pt-5 pr-10 pb-20 pl-10 lg:pt-20 lg:flex-row">
+                <div class="flex items-center justify-center w-full bg-cover relative max-w-md lg:max-w-2xl lg:w-7/12">
+                    <div class="flex flex-col items-center justify-center w-3/4 h-full relative lg:pr-10">
+                        <img src="https://storage.googleapis.com/pai-images/ab359c38cad746bfb974d8c25f11aff1.jpeg"
+                            class="btn- rounded-xl" />
+                    </div>
+                </div>
+                <div class="w-full mt-10 mr-0 mb-0 ml-0 relative z-10 max-w-2xl lg:mt-0 lg:w-5/12">
+                    <form action="/form/contact" method="post">
+                        <div class="w-full flex flex-col items-start justify-start px-5 py-5 bg-white shadow-2xl rounded-xl
+            relative z-10">
+                            <p class="w-full text-4xl font-medium text-center leading-snug font-serif">Contact US</p>
+                            <div class="w-full mt-6 mr-0 mb-0 ml-0 relative space-y-8">
+                                <div class="relative">
+                                    <p
+                                        class="bg-white pt-0 pr-2 pb-0 pl-2 -mt-3 mr-0 mb-0 ml-2 font-medium text-gray-600 absolute">
+                                        Email</p>
+                                    <input placeholder="123@example.com" name="email" type="text" class="border placeholder-gray-400 focus:outline-none
+                  focus:border-black w-full pt-4 pr-4 pb-4 pl-4 mt-2 mr-0 mb-0 ml-0 text-base block bg-white
+                  border-gray-300 rounded-md" required />
+                                </div>
+                                <div class="relative">
+                                    <p class="bg-white pt-0 pr-2 pb-0 pl-2 -mt-3 mr-0 mb-0 ml-2 font-medium text-gray-600
+                  absolute">Message</p>
+                                    <textarea placeholder="Message" name="message"  class="border placeholder-gray-400 focus:outline-none
+                  focus:border-black w-full pt-4 pr-4 pb-4 pl-4 mt-2 mr-0 mb-0 ml-0 text-base block bg-white
+                  border-gray-300 rounded-md" required></textarea>
+                                </div>
+                                <div class="relative">
+                                    <button type="submit"
+                                        class="font-semibold text-lg bg-purple-600 hover:bg-blue-400 text-white py-3 px-12 rounded-full">Submit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <svg viewbox="0 0 91 91" class="absolute top-0 left-0 z-0 w-32 h-32 -mt-12 -ml-12 text-yellow-300
+            fill-current">
+                        <g stroke="none" strokewidth="1" fillrule="evenodd">
+                            <g fillrule="nonzero">
+                                <g>
+                                    <g>
+                                        <circle cx="3.261" cy="3.445" r="2.72" />
+                                        <circle cx="15.296" cy="3.445" r="2.719" />
+                                        <circle cx="27.333" cy="3.445" r="2.72" />
+                                        <circle cx="39.369" cy="3.445" r="2.72" />
+                                        <circle cx="51.405" cy="3.445" r="2.72" />
+                                        <circle cx="63.441" cy="3.445" r="2.72" />
+                                        <circle cx="75.479" cy="3.445" r="2.72" />
+                                        <circle cx="87.514" cy="3.445" r="2.719" />
+                                    </g>
+                                    <g transform="translate(0 12)">
+                                        <circle cx="3.261" cy="3.525" r="2.72" />
+                                        <circle cx="15.296" cy="3.525" r="2.719" />
+                                        <circle cx="27.333" cy="3.525" r="2.72" />
+                                        <circle cx="39.369" cy="3.525" r="2.72" />
+                                        <circle cx="51.405" cy="3.525" r="2.72" />
+                                        <circle cx="63.441" cy="3.525" r="2.72" />
+                                        <circle cx="75.479" cy="3.525" r="2.72" />
+                                        <circle cx="87.514" cy="3.525" r="2.719" />
+                                    </g>
+                                    <g transform="translate(0 24)">
+                                        <circle cx="3.261" cy="3.605" r="2.72" />
+                                        <circle cx="15.296" cy="3.605" r="2.719" />
+                                        <circle cx="27.333" cy="3.605" r="2.72" />
+                                        <circle cx="39.369" cy="3.605" r="2.72" />
+                                        <circle cx="51.405" cy="3.605" r="2.72" />
+                                        <circle cx="63.441" cy="3.605" r="2.72" />
+                                        <circle cx="75.479" cy="3.605" r="2.72" />
+                                        <circle cx="87.514" cy="3.605" r="2.719" />
+                                    </g>
+                                    <g transform="translate(0 36)">
+                                        <circle cx="3.261" cy="3.686" r="2.72" />
+                                        <circle cx="15.296" cy="3.686" r="2.719" />
+                                        <circle cx="27.333" cy="3.686" r="2.72" />
+                                        <circle cx="39.369" cy="3.686" r="2.72" />
+                                        <circle cx="51.405" cy="3.686" r="2.72" />
+                                        <circle cx="63.441" cy="3.686" r="2.72" />
+                                        <circle cx="75.479" cy="3.686" r="2.72" />
+                                        <circle cx="87.514" cy="3.686" r="2.719" />
+                                    </g>
+                                    <g transform="translate(0 49)">
+                                        <circle cx="3.261" cy="2.767" r="2.72" />
+                                        <circle cx="15.296" cy="2.767" r="2.719" />
+                                        <circle cx="27.333" cy="2.767" r="2.72" />
+                                        <circle cx="39.369" cy="2.767" r="2.72" />
+                                        <circle cx="51.405" cy="2.767" r="2.72" />
+                                        <circle cx="63.441" cy="2.767" r="2.72" />
+                                        <circle cx="75.479" cy="2.767" r="2.72" />
+                                        <circle cx="87.514" cy="2.767" r="2.719" />
+                                    </g>
+                                    <g transform="translate(0 61)">
+                                        <circle cx="3.261" cy="2.846" r="2.72" />
+                                        <circle cx="15.296" cy="2.846" r="2.719" />
+                                        <circle cx="27.333" cy="2.846" r="2.72" />
+                                        <circle cx="39.369" cy="2.846" r="2.72" />
+                                        <circle cx="51.405" cy="2.846" r="2.72" />
+                                        <circle cx="63.441" cy="2.846" r="2.72" />
+                                        <circle cx="75.479" cy="2.846" r="2.72" />
+                                        <circle cx="87.514" cy="2.846" r="2.719" />
+                                    </g>
+                                    <g transform="translate(0 73)">
+                                        <circle cx="3.261" cy="2.926" r="2.72" />
+                                        <circle cx="15.296" cy="2.926" r="2.719" />
+                                        <circle cx="27.333" cy="2.926" r="2.72" />
+                                        <circle cx="39.369" cy="2.926" r="2.72" />
+                                        <circle cx="51.405" cy="2.926" r="2.72" />
+                                        <circle cx="63.441" cy="2.926" r="2.72" />
+                                        <circle cx="75.479" cy="2.926" r="2.72" />
+                                        <circle cx="87.514" cy="2.926" r="2.719" />
+                                    </g>
+                                    <g transform="translate(0 85)">
+                                        <circle cx="3.261" cy="3.006" r="2.72" />
+                                        <circle cx="15.296" cy="3.006" r="2.719" />
+                                        <circle cx="27.333" cy="3.006" r="2.72" />
+                                        <circle cx="39.369" cy="3.006" r="2.72" />
+                                        <circle cx="51.405" cy="3.006" r="2.72" />
+                                        <circle cx="63.441" cy="3.006" r="2.72" />
+                                        <circle cx="75.479" cy="3.006" r="2.72" />
+                                        <circle cx="87.514" cy="3.006" r="2.719" />
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                    <svg viewbox="0 0 91 91" class="absolute bottom-0 right-0 z-0 w-32 h-32 -mb-12 -mr-12 text-indigo-500
+            fill-current">
+                        <g stroke="none" strokewidth="1" fillrule="evenodd">
+                            <g fillrule="nonzero">
+                                <g>
+                                    <g>
+                                        <circle cx="3.261" cy="3.445" r="2.72" />
+                                        <circle cx="15.296" cy="3.445" r="2.719" />
+                                        <circle cx="27.333" cy="3.445" r="2.72" />
+                                        <circle cx="39.369" cy="3.445" r="2.72" />
+                                        <circle cx="51.405" cy="3.445" r="2.72" />
+                                        <circle cx="63.441" cy="3.445" r="2.72" />
+                                        <circle cx="75.479" cy="3.445" r="2.72" />
+                                        <circle cx="87.514" cy="3.445" r="2.719" />
+                                    </g>
+                                    <g transform="translate(0 12)">
+                                        <circle cx="3.261" cy="3.525" r="2.72" />
+                                        <circle cx="15.296" cy="3.525" r="2.719" />
+                                        <circle cx="27.333" cy="3.525" r="2.72" />
+                                        <circle cx="39.369" cy="3.525" r="2.72" />
+                                        <circle cx="51.405" cy="3.525" r="2.72" />
+                                        <circle cx="63.441" cy="3.525" r="2.72" />
+                                        <circle cx="75.479" cy="3.525" r="2.72" />
+                                        <circle cx="87.514" cy="3.525" r="2.719" />
+                                    </g>
+                                    <g transform="translate(0 24)">
+                                        <circle cx="3.261" cy="3.605" r="2.72" />
+                                        <circle cx="15.296" cy="3.605" r="2.719" />
+                                        <circle cx="27.333" cy="3.605" r="2.72" />
+                                        <circle cx="39.369" cy="3.605" r="2.72" />
+                                        <circle cx="51.405" cy="3.605" r="2.72" />
+                                        <circle cx="63.441" cy="3.605" r="2.72" />
+                                        <circle cx="75.479" cy="3.605" r="2.72" />
+                                        <circle cx="87.514" cy="3.605" r="2.719" />
+                                    </g>
+                                    <g transform="translate(0 36)">
+                                        <circle cx="3.261" cy="3.686" r="2.72" />
+                                        <circle cx="15.296" cy="3.686" r="2.719" />
+                                        <circle cx="27.333" cy="3.686" r="2.72" />
+                                        <circle cx="39.369" cy="3.686" r="2.72" />
+                                        <circle cx="51.405" cy="3.686" r="2.72" />
+                                        <circle cx="63.441" cy="3.686" r="2.72" />
+                                        <circle cx="75.479" cy="3.686" r="2.72" />
+                                        <circle cx="87.514" cy="3.686" r="2.719" />
+                                    </g>
+                                    <g transform="translate(0 49)">
+                                        <circle cx="3.261" cy="2.767" r="2.72" />
+                                        <circle cx="15.296" cy="2.767" r="2.719" />
+                                        <circle cx="27.333" cy="2.767" r="2.72" />
+                                        <circle cx="39.369" cy="2.767" r="2.72" />
+                                        <circle cx="51.405" cy="2.767" r="2.72" />
+                                        <circle cx="63.441" cy="2.767" r="2.72" />
+                                        <circle cx="75.479" cy="2.767" r="2.72" />
+                                        <circle cx="87.514" cy="2.767" r="2.719" />
+                                    </g>
+                                    <g transform="translate(0 61)">
+                                        <circle cx="3.261" cy="2.846" r="2.72" />
+                                        <circle cx="15.296" cy="2.846" r="2.719" />
+                                        <circle cx="27.333" cy="2.846" r="2.72" />
+                                        <circle cx="39.369" cy="2.846" r="2.72" />
+                                        <circle cx="51.405" cy="2.846" r="2.72" />
+                                        <circle cx="63.441" cy="2.846" r="2.72" />
+                                        <circle cx="75.479" cy="2.846" r="2.72" />
+                                        <circle cx="87.514" cy="2.846" r="2.719" />
+                                    </g>
+                                    <g transform="translate(0 73)">
+                                        <circle cx="3.261" cy="2.926" r="2.72" />
+                                        <circle cx="15.296" cy="2.926" r="2.719" />
+                                        <circle cx="27.333" cy="2.926" r="2.72" />
+                                        <circle cx="39.369" cy="2.926" r="2.72" />
+                                        <circle cx="51.405" cy="2.926" r="2.72" />
+                                        <circle cx="63.441" cy="2.926" r="2.72" />
+                                        <circle cx="75.479" cy="2.926" r="2.72" />
+                                        <circle cx="87.514" cy="2.926" r="2.719" />
+                                    </g>
+                                    <g transform="translate(0 85)">
+                                        <circle cx="3.261" cy="3.006" r="2.72" />
+                                        <circle cx="15.296" cy="3.006" r="2.719" />
+                                        <circle cx="27.333" cy="3.006" r="2.72" />
+                                        <circle cx="39.369" cy="3.006" r="2.72" />
+                                        <circle cx="51.405" cy="3.006" r="2.72" />
+                                        <circle cx="63.441" cy="3.006" r="2.72" />
+                                        <circle cx="75.479" cy="3.006" r="2.72" />
+                                        <circle cx="87.514" cy="3.006" r="2.719" />
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {{>footer}}
+
+
+</body>
+
+</html>
